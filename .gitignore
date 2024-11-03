@@ -1,0 +1,15 @@
+# Ignore node_modules across all folders
+node_modules/
+
+# Ignore build outputs from each folder
+dist/
+build/
+
+# Ignore Vite and Webpack cache (if applicable)
+.cache/
+.vite/
+webpack-stats.json
+
+# Ignore environment variables
+.env
+.env.local
